@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: 0.5s all;
+}
+body{
+    background-color: #111111;
+    height: 4600px;
+    overflow-x: hidden;
+}
+main{
+    background-image: url(/PC-Curse/img/main-screen__bgc.png);
+    width: 100%;
+    height: 47rem;
+}
+nav{
+    position: relative;
+    top: 57px;
+    left: 22%;
+}
+nav a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s all ease-in-out;
+}
+nav button{
+    position: relative;
+    left: 52px;
+    width: 143px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size:15px ;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+
+}
+header{
+    height: 0;
+}
+nav img{
+    position: relative;
+    left: -18rem;
+}
+
+main h1{
+    position: relative;
+    color: white;
+    top: 14rem;
+    left: 25rem;
+    font-size: 50px;
+}
+nav a:hover{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
