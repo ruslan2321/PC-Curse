@@ -4,14 +4,14 @@
     transition: 0.5s all;
 }
 body{
-    background-color: #111111;
+    background-color: #000000;
     height: 4600px;
     overflow-x: hidden;
 }
 main{
     background-image: url(/PC-Curse/img/main-screen__bgc.png);
     width: 100%;
-    height: 47rem;
+    height: 60rem;
 }
 nav{
     position: relative;
@@ -52,8 +52,72 @@ main h1{
     left: 25rem;
     font-size: 50px;
 }
-nav a:hover{
-    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+@media screen and (max-width: 1920px){
+    nav a{
+        position: relative;
+        left: 8rem;
+    }
+    nav button{
+        position: relative;
+        left: 18rem;
+    }
+}
+@media screen and (max-width: 1574px){
+
+    main{
+        background-image: url(/PC-Curse/img/imgonline-com-ua-Resize-2IyfXcD6iZnqFMs.jpg);
+        height: 48rem;
+    }
+}
+.conteiner{
+    position: relative;
+    top: 17rem;
+    left: 25rem;
+}
+.conteiner_block{
+    display: inline-block;
+    background-color: #121212;
+    width: 102px;
+    height: 112px;
+    margin: 0.5rem;  
+}
+.conteiner_block p{
+    position: relative;
+    top: 1rem;
+    color:#3e3e3e;
+    text-align: center;
+}
+.conteiner_block h1{
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.dis{
+    position: relative;
+    width: 100%;
+    height: 83px;
+    background-color: #121212;
+    top: 24rem;
+}
+.dis button{
+    position: relative;
+    top: 20px;
+    left: 10rem;
+    width: 145px;
+    height: 41px;
+    border-radius: 20px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.dis p{
+    position: relative;
+    left: 23rem;
+    bottom: 37px;
+    margin-top: 12px;
+    color: white;
 }
