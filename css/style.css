@@ -69,7 +69,16 @@ main h1{
         background-image: url(/PC-Curse/img/imgonline-com-ua-Resize-2IyfXcD6iZnqFMs.jpg);
         height: 48rem;
     }
+     nav a{
+        position: relative;
+        left: 3rem;
+    }
+    nav button{
+        position: relative;
+        left: 5rem;
+    }
 }
+
 .conteiner{
     position: relative;
     top: 17rem;
